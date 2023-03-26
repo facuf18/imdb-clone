@@ -11,7 +11,7 @@ function Header() {
         <MenuItem title='Home' address='/' Icon={AiFillHome} />
         <MenuItem title='About' address='/about' Icon={AiFillInfoCircle} />
       </div>
-      <div className='flex items-center space-x-5'>
+      <div className='flex items-center mx-4 space-x-5 lg:mx-6'>
         <DarkModeSwitch />
         <Link href='/'>
           <h2 className='text-2xl'>
