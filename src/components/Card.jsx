@@ -20,7 +20,7 @@ function Card({ result }) {
             maxWidth: '100%',
             maxHeight: 'auto',
           }}
-        ></Image>
+        />
         <div className='p-2'>
           <p className='line-clamp-3 text-md'>{result.overview}</p>
           <h1 className='text-lg font-bold truncate'>
