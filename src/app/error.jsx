@@ -10,7 +10,7 @@ function Error({ error, reset }) {
   return (
     <div className='mt-10 text-center'>
       <h1>Something went wrong</h1>
-      <button className='hover:text-amber-600' onClick={() => reset()}>
+      <button className='hover:text-yellow-600' onClick={() => reset()}>
         Try again
       </button>
     </div>

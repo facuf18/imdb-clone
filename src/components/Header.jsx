@@ -15,7 +15,7 @@ function Header() {
         <DarkModeSwitch />
         <Link href='/'>
           <h2 className='text-2xl'>
-            <span className='px-2 py-1 mr-1 font-bold rounded-lg bg-amber-600'>
+            <span className='px-2 py-1 mr-1 font-bold text-black bg-yellow-400 rounded-md'>
               IMDb
             </span>
             <span className='hidden text-xl sm:inline'>Clone</span>

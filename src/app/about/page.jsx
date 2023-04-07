@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <div className='max-w-6xl p-4 mx-auto space-y-4 text-justify lg:p-6'>
-      <h1 className='text-2xl font-medium text-amber-600'>About</h1>
+      <h1 className='text-2xl font-medium text-yellow-500'>About</h1>
       <p>
         Welcome to our movie database website! We are a team of passionate movie
         enthusiasts who have come together to create a one-stop destination for

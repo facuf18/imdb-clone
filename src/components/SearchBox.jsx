@@ -11,6 +11,7 @@ function SearchBox() {
     e.preventDefault();
     if (!search) return;
     router.push(`/search/${search}`);
+    setSearch('');
   };
 
   return (
@@ -28,7 +29,7 @@ function SearchBox() {
       <button
         disabled={!search}
         type='submit'
-        className='text-amber-600 disabled:text-gray-400 '
+        className='text-yellow-400 disabled:text-gray-400 '
       >
         Search
       </button>

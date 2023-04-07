@@ -14,15 +14,9 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body>
         <Providers>
-          {/* Header */}
           <Header />
-
-          {/* Navbar */}
           <Navbar />
-
-          {/* SearchBox */}
           <SearchBox />
-
           {children}
         </Providers>
       </body>
